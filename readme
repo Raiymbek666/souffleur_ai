@@ -1,0 +1,18 @@
+--AI-souffleur-backend
+1) В директории backend, создать файл .env и указать переменные сред в формате:
+      OPENAI_API_KEY = "sk-proj-key" 
+      
+      
+      # Можно не менять
+      POSTGRES_DB = "db"
+      POSTGRES_USER = "admin"
+      POSTGRES_PASSWORD = "admin"
+      POSTGRES_PORT = "5432"
+2) В директорию /AI-souffleur-backend/app/knowledge_base/КРБ добавить базу знаний по КРБ
+3) В директорию /AI-souffleur-backend/app/knowledge_base/ММБ добавить базу знаний по ММБ
+4) В директории /AI-souffleur-backend. Выполнить команду docker builder prune
+5) В директории /AI-souffleur-backend. Выполнить команду docker compose up -d  --build --force-recreate
+
+--AI-souffleur-frontend
+
+1) В директории /AI-souffleur-frontend. Выполнить команду docker-compose up --build
