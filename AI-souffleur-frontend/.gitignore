@@ -1,0 +1,39 @@
+# Общие настройки
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+*.db
+
+# Виртуальные окружения
+venv/
+env/
+.venv/
+.env/
+
+# Docker
+*.pid
+*.pid.lock
+docker-compose.override.yml
+
+# Исключить базу знаний
+app/knowledge_base/
+
+# Node/React (для фронтенда)
+node_modules/
+dist/
+build/
+
+# OS/IDE specific
+.DS_Store
+*.swp
+.idea/
+.vscode/
+*.bak
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/

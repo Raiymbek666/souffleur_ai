@@ -1,0 +1,27 @@
+# backend
+fastapi
+uvicorn[standard]
+
+# ai stuff
+langchain
+langchain-core
+langchain-openai
+langchain-community
+langchain-postgres
+
+# types
+pydantic
+
+#db
+psycopg-binary
+
+#parsers
+unstructured[docx,xlsx]
+pypdf
+
+#tokenizer
+tiktoken
+
+
+#env vars
+python-dotenv
