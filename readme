@@ -1,5 +1,5 @@
 --AI-souffleur-backend
-1) В директории backend, создать файл .env и указать переменные сред в формате:
+1) В директории /AI-souffleur-backend, создать файл .env и указать переменные сред в формате:
       OPENAI_API_KEY = "sk-proj-key" 
       
       
